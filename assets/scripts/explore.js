@@ -36,11 +36,11 @@ function init() {
     
     if(synth.speaking == true){
       console.log("hello")
-      img.src = "/assets/images/smiling-open.png";
+      img.src = "assets/images/smiling-open.png";
     }
 
     utterance.addEventListener('end', function(event) {
-      img.src = "/assets/images/smiling.png";
+      img.src = "assets/images/smiling.png";
     });
   });
 
